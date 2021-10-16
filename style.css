@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #6b7a8f6b;
+}
+/*MENU*/
+header{
+    padding: 20px;
+    background-image: linear-gradient(to right, rgba(255, 136, 0, 0.904), rgba(255, 0, 0, 0.651));
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: linear-gradient(to right,  rgba(255, 136, 0, 0.904), rgba(255, 0, 0, 0.651));
+}
+li {
+    float: left;
+} 
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: rgba(17, 17, 17, 0.219);
+}
+/*FIMMENU*/
+
+/*CONTEUDO*/
+main{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.493), 0 6px 20px 0 rgba(0, 0, 0, 0.493);
+    position: relative;
+    left: 230px;
+    margin: 10px 460px 40px 0px;
+    padding: 30px;
+    border: 2px;
+    border-radius: 11px;
+}
+/*Texto*/
+.text1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+
+}
+.text2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+h1{
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: black;
+}
+h2{
+    background-image: linear-gradient(to right,  rgba(255, 136, 0, 0.096), rgba(255, 0, 0, 0.74));
+    margin: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: black;
+}
+/*img*/
+img{
+  display: block;
+}
+/*video*/
+iframe{
+    margin-left: 20px;
+    
+}
+.video1{
+    padding: 10px 0px 10px 0px;
+    background-image: linear-gradient(to right,  rgba(255, 136, 0, 0.904), rgba(255, 0, 0, 0.884));
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+footer{
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: center;
+    background-image: linear-gradient(to right,  rgba(255, 136, 0, 0.904), rgba(255, 0, 0, 0.884));
+}
